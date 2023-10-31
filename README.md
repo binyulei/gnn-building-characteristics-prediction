@@ -54,7 +54,7 @@ To infer multiple building characteristics across cities, we use our Graph-based
 
 2. Compare predicted building type and ground truth in Boston
 <div align=center>
-<img src="outputs/boston_predicted_storey.jpg">
+<img src="outputs/boston_predicted_type.jpg">
 </div>
 
 ## License
