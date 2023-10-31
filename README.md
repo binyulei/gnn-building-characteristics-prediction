@@ -2,7 +2,9 @@
 
 ## Introduction
 
+Building characteristics, such as storeys and types, play an important role across a multitude of domains: simulating urban micro-climate, modelling building energy and supporting the development of 3D GIS. However, geospatial data on the building stock is often fragmented and incomplete.
 
+Here, we propose a novel and scalable method to predict a set of building characteristics within diverse contexts, addressing the existing data gaps. Our method exploits the geospatial connectivity between street-level contexts and buildings characteristics, employing Graph Neural Networks (GNNs) for modelling spatial patterns.
 
 <!-- ## Data
 
