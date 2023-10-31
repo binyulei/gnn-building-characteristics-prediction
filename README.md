@@ -1,0 +1,1 @@
+# gnn-building-characteristics-prediction
