@@ -16,7 +16,7 @@ Two types of data are considered for designing our method:
 
 ## Sample dataset
 
-For demonstration, we provide building data in Boston for running this notebook. This include:
+For demonstration, we provide a [`sample_data.csv`](https://github.com/binyulei/gnn-building-characteristics-prediction/blob/c5e0c18e87b2c2309e64b97f8818d4af372b138a/sample_data/sample_data.csv) in Boston for running this notebook. This include:
 
 - [Building data in Boston](https://data.boston.gov/dataset/boston-buildings-inventory)
 - Street-level urban objects, obtained from [OSM](https://www.openstreetmap.org/#map=12/42.3125/-70.9979). Here is an example to retrieve the spatial distribution of points of interests via [Overpass API](https://overpass-turbo.eu/):
