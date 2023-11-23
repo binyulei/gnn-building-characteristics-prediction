@@ -59,6 +59,15 @@ To infer multiple building characteristics across cities, we use our Graph-based
 <img src="outputs/boston_predicted_type.jpg">
 </div>
 
+## Use case
+The predicted building characteristics have potential to support a variety of use cases. For instance, the number of storeys can be used for generating a 3D city model. We take Boston as an example to demonstrate the adoption of height-related information in 3D GIS.
+
+To do so, a simple way [`3d_generating.py`](https://github.com/binyulei/gnn-building-characteristics-prediction/blob/89febee0251f787eea2555ff335ac6acef1a197f/3d_generating.py) is to extrude footprints to a height estimated from the number of storeys to a 3D city model and output a CityJSON dataset. The code mostly courtesy of [`cityjson-software`](https://github.com/tudelft3d/cityjson-software/blob/master/extruder/extruder.py).
+
+<div align=center>
+<img src="outputs/boston_3d.png">
+</div>
+
 ## License
 
 It is licensed under the terms of the MIT license.
