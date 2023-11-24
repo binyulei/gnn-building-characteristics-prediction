@@ -60,9 +60,14 @@ To infer multiple building characteristics across cities, we use our Graph-based
 </div>
 
 ## Use case
+
 The predicted building characteristics have potential to support a variety of use cases. For instance, the number of storeys can be used for generating a 3D city model. We take Boston as an example to demonstrate the adoption of height-related information in 3D GIS.
 
-To do so, a simple way [`3d_generating.py`](https://github.com/binyulei/gnn-building-characteristics-prediction/blob/89febee0251f787eea2555ff335ac6acef1a197f/3d_generating.py) is to extrude footprints to a height estimated from the number of storeys to a 3D city model and output a CityJSON dataset. The code mostly courtesy of [`cityjson-software`](https://github.com/tudelft3d/cityjson-software/blob/master/extruder/extruder.py).
+To do so, a simple way is to extrude footprints to a height estimated from the number of storeys to a 3D city model and output a CityJSON dataset:
+
+- [Boston buiding footprints](https://github.com/binyulei/gnn-building-characteristics-prediction/blob/5351c5b4d0877cd21966b2f0224741f555d38f77/sample_data/boston_footprint_2249.geojson). The prepared data is reprojected to USA Massachusetts Mainland CRS (EPSG:2249)
+- [Extrude footprints to 3D buildings](https://github.com/binyulei/gnn-building-characteristics-prediction/blob/5351c5b4d0877cd21966b2f0224741f555d38f77/3d_generating.py) (The code mostly courtesy of [`cityjson-software`](https://github.com/tudelft3d/cityjson-software/blob/master/extruder/extruder.py))
+- [The generated 3D city model for Boston](https://github.com/binyulei/gnn-building-characteristics-prediction/blob/5351c5b4d0877cd21966b2f0224741f555d38f77/sample_data/boston_3d_model.json)
 
 <div align=center>
 <img src="outputs/boston_3d.png">
