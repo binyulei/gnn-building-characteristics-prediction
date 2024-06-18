@@ -73,6 +73,14 @@ To do so, a simple way is to extrude footprints to a height estimated from the n
 <img src="outputs/boston_3d.png">
 </div>
 
+## Paper
+
+A paper about the work was published in Computers, Environment and Urban Systems.
+
+If you use this work in a scientific context, please cite this article.
+
+Lei B, Liu P, Milojevic-Dupont N, & Biljecki F (2024): Predicting building characteristics at urban scale using graph neural networks and street-level context. Computers, Environment and Urban Systems 111: 102129. doi: doi.org/10.1016/j.compenvurbsys.2024.102129
+
 ## License
 
 It is licensed under the terms of the MIT license.
