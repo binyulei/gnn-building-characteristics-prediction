@@ -79,7 +79,21 @@ A paper about the work was published in Computers, Environment and Urban Systems
 
 If you use this work in a scientific context, please cite this article.
 
-Lei B, Liu P, Milojevic-Dupont N, & Biljecki F (2024): Predicting building characteristics at urban scale using graph neural networks and street-level context. Computers, Environment and Urban Systems 111: 102129. doi: doi.org/10.1016/j.compenvurbsys.2024.102129
+Lei B, Liu P, Milojevic-Dupont N, Biljecki F (2024): Predicting building characteristics at urban scale using graph neural networks and street-level context. Computers, Environment and Urban Systems 111: 102129. doi: 10.1016/j.compenvurbsys.2024.102129
+
+```
+
+@article{lei2024predicting,
+  title={Predicting building characteristics at urban scale using graph neural networks and street-level context},
+  author={Lei, Binyu and Liu, Pengyuan and Milojevic-Dupont, Nikola and Biljecki, Filip},
+  doi={10.1016/j.compenvurbsys.2024.102129},
+  journal={Computers, Environment and Urban Systems},
+  volume={111},
+  pages={102129},
+  year={2024},
+  publisher={Elsevier}
+}
+```
 
 ## License
 
