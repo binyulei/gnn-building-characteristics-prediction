@@ -75,7 +75,7 @@ To do so, a simple way is to extrude footprints to a height estimated from the n
 
 ## Paper
 
-A paper about the work was published in Computers, Environment and Urban Systems.
+A [paper](https://doi.org/10.1016/j.compenvurbsys.2024.102129) about the work was published in Computers, Environment and Urban Systems.
 
 If you use this work in a scientific context, please cite this article.
 
